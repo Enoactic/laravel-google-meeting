@@ -1,0 +1,22 @@
+{
+    "name": "boonyaphatintasin/laravel-google-meeting",
+    "description": "",
+    "type": "library",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Boonyaphat Intasin",
+            "email": "aosmosiss-ze@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LaravelGoogleMeeting\\": "src/LaravelGoogleMeeting"
+        }
+    },
+    "require": {
+        "php": ">=7.1.33",
+        "google/apiclient": "^2.0"
+    }
+}
